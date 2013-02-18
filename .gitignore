@@ -2,12 +2,8 @@
 ## Custome
 #################
 application.ini
-project-root-directory/
-+ nbproject/
-  build-impl.xml
-  + private/
-  + project.properties
-  + project.xml
+nbproject/
+
 #################
 ## Eclipse
 #################
