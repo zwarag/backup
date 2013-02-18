@@ -1,0 +1,83 @@
+/*
+controller:*
+*/
+body{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+.menu{
+    max-height: 200px;
+    overflow: hidden;
+    width: 100%;
+    background-color:dodgerblue;
+    margin-bottom: 5px;
+    padding-bottom: 8px;
+}
+.menu a,.menu a:visited
+{
+    color:#ff99ff;
+}
+.menu a:hover{
+    color:#ff8822;
+}
+
+
+.menu .item{
+    margin:8px 2px 0;
+    padding:5px;
+    background-color: chartreuse;
+    display:  inline;
+    float:left;
+}
+
+.menu .item:hover{
+    background-color: white;
+}
+
+.clear{
+    clear:both;
+}
+
+a,a:hover,a:visited{
+    color: #fff;
+}
+
+.list{
+    background-color:#003189;
+    padding-top: 2px;
+    margin-right:5px;
+}
+
+.list .item{
+    background-color:#005189;
+    display:block;
+    color:#fff;
+    margin-bottom:2px;
+    padding-right:30px;
+}
+
+.list .item:hover{
+    background-color: #ff8822;
+}
+
+.list .header{
+    font-weight:bold;
+    background-color:#ffff33;
+    margin-bottom:2px;
+}
+
+
+
+.float_left{
+    float:left;
+}
+
+.float_right{
+    float:right;
+}
+
+.clear{
+    clear:both;
+}

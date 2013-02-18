@@ -1,0 +1,15 @@
+#wrapper{
+       background-image: url('../img/background.png');
+       background-repeat:no-repeat;
+       width:935px;
+       height:822px;
+       
+      	margin: 0 auto;
+}
+
+
+
+#wait{
+    background-image: url('../img/ajax-loader.gif');
+    
+}

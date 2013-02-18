@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <?= $this->headTitle() ?>
+        <?= $this->headScript() ?>
+        <?= $this->headLink() ?>
+    </head>
+    <body>
+        <div id="wrapper">
+        <?= $this->ZFC_Menu->render() ?>
+        <div id="content">
+            <?= $this->layout()->content ?>
+        </div>
+        </div>
+    </body>
+</html>

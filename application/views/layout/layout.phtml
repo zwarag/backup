@@ -1,0 +1,23 @@
+<?
+
+/*
+ * Layout.phtml
+ * the basic Layout file Starts with Settings then includes index.phtml for html
+ * Clemens Burger
+ * 08.01.2013
+ */
+
+$this->headTitle()->setSeparator(' - ');
+$this->headTitle()->prepend('FreeGame');
+$this->headScript()->prependFile('//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js');
+
+$this->headScript()->prependFile('//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js');
+
+$this->headLink()->appendStylesheet($this->baseUrl('/css/streamo.css'));
+$this->headLink()->appendStylesheet($this->baseUrl('/css/menu.css'));
+$this->headScript()->prependScript('var baseUrl  = "'.$this->baseUrl('').'"', 'text/javascript');
+$this->assign('ZFC_Menu', new ZFC_Menu());
+echo $this->render('index.phtml');
+
+
+
